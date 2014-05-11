@@ -2,7 +2,7 @@
 include 'css.html';
 include 'connection.php';
 
-
+// database connection
 $result = mysqli_query($con, "SELECT * FROM $tblname");
 
 ?>
